@@ -16,10 +16,10 @@ object CombatItems {
     private var rubySword = ModItems.register(SwordItem(RubyToolMaterial.INSTANCE, 3, -2.4f, FabricItemSettings()), "ruby_sword")
 
     // Armor items
-    private var rubyHelmet = ModItems.register(ArmorItem(RubyArmorMaterial, ArmorItem.Type.HELMET, FabricItemSettings()), "ruby_helmet")
-    private var rubyChestplate = ModItems.register(ArmorItem(RubyArmorMaterial, ArmorItem.Type.CHESTPLATE, FabricItemSettings()), "ruby_chestplate")
-    private var rubyLeggings = ModItems.register(ArmorItem(RubyArmorMaterial, ArmorItem.Type.LEGGINGS, FabricItemSettings()), "ruby_leggings")
-    private var rubyBoots = ModItems.register(ArmorItem(RubyArmorMaterial, ArmorItem.Type.BOOTS, FabricItemSettings()), "ruby_boots")
+    private var rubyHelmet = ModItems.register(ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, FabricItemSettings()), "ruby_helmet")
+    private var rubyChestplate = ModItems.register(ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.CHESTPLATE, FabricItemSettings()), "ruby_chestplate")
+    private var rubyLeggings = ModItems.register(ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, FabricItemSettings()), "ruby_leggings")
+    private var rubyBoots = ModItems.register(ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.BOOTS, FabricItemSettings()), "ruby_boots")
 
     // Get all items
     fun allItems(): Array<Item> {
