@@ -6,7 +6,8 @@ import philip.firstfabricmod.ModItems
 
 object OreItems {
 
-    private var ruby = ModItems.register(Item(FabricItemSettings()), "ruby")
+    // Ore items
+    var ruby = ModItems.register(Item(FabricItemSettings()), "ruby")
     private var sapphire = ModItems.register(Item(FabricItemSettings()), "sapphire")
 
     fun allItems(): Array<Item> {

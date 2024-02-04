@@ -4,7 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.minecraft.item.Item
 import philip.firstfabricmod.ModItems
 
-object MiscItems {
+object ToolsItems {
 
     private var coin = ModItems.register(Item(FabricItemSettings()), "coin")
 

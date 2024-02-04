@@ -1,5 +1,15 @@
 {
   "item.firstfabricmod.ruby": "Ruby",
   "item.firstfabricmod.sapphire": "Sapphire",
-  "item.firstfabricmod.coin": "Coin"
+
+  "item.firstfabricmod.coin": "Coin",
+
+  "item.firstfabricmod.ender_sword": "Ender Sword",
+  "item.firstfabricmod.fire_sword": "Fire Sword",
+  "item.firstfabricmod.ruby_sword": "Ruby Sword",
+
+  "item.firstfabricmod.ruby_helmet": "Ruby Helmet",
+  "item.firstfabricmod.ruby_chestplate": "Ruby Chestplate",
+  "item.firstfabricmod.ruby_leggings": "Ruby Leggings",
+  "item.firstfabricmod.ruby_boots": "Ruby Boots"
 }

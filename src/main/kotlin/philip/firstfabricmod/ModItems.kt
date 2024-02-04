@@ -8,7 +8,8 @@ import net.minecraft.item.ItemGroups
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.util.Identifier
-import philip.firstfabricmod.items.MiscItems
+import philip.firstfabricmod.items.CombatItems
+import philip.firstfabricmod.items.ToolsItems
 import philip.firstfabricmod.items.OreItems
 
 
@@ -28,21 +29,27 @@ object ModItems {
         return registeredItem
     }
 
+    // Initialize the items
     fun initialize() {
         for (item in oreItems) {
             ItemGroupEvents // Register a "modify" event for the Ingredients item group.
                     .modifyEntriesEvent(ItemGroups.INGREDIENTS) // Add the item to the group when you get access to it.
                     .register(ModifyEntries { itemGroup: FabricItemGroupEntries -> itemGroup.add(item) })
         }
-        for (item in miscItems) {
+        for (item in toolsItems) {
             ItemGroupEvents // Register a "modify" event for the Ingredients item group.
                     .modifyEntriesEvent(ItemGroups.TOOLS) // Add the item to the group when you get access to it.
+                    .register(ModifyEntries { itemGroup: FabricItemGroupEntries -> itemGroup.add(item) })
+        }
+        for (item in combatItems) {
+            ItemGroupEvents // Register a "modify" event for the Ingredients item group.
+                    .modifyEntriesEvent(ItemGroups.COMBAT) // Add the item to the group when you get access to it.
                     .register(ModifyEntries { itemGroup: FabricItemGroupEntries -> itemGroup.add(item) })
         }
     }
 
     // ITEMS
     private var oreItems = OreItems.allItems()
-    private var miscItems = MiscItems.allItems()
-
+    private var toolsItems = ToolsItems.allItems()
+    private var combatItems = CombatItems.allItems()
 }

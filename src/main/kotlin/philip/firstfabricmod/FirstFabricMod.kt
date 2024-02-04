@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
 object FirstFabricMod : ModInitializer {
+	const val MOD_ID = "firstfabricmod"
     private val logger = LoggerFactory.getLogger("firstfabricmod")
 
 	override fun onInitialize() {
