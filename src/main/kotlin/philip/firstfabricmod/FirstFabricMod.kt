@@ -14,5 +14,6 @@ object FirstFabricMod : ModInitializer {
 		logger.info("Hello Fabric world!")
 
 		ModItems.initialize()
+		ModBlocks.initialize()
 	}
 }

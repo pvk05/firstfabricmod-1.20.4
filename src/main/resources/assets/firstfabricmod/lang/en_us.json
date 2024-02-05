@@ -2,6 +2,12 @@
   "item.firstfabricmod.ruby": "Ruby",
   "item.firstfabricmod.sapphire": "Sapphire",
 
+  "block.firstfabricmod.ruby_block": "Ruby Block",
+  "block.firstfabricmod.sapphire_block": "Sapphire Block",
+
+  "block.firstfabricmod.ruby_ore": "Ruby Ore",
+  "block.firstfabricmod.sapphire_ore": "Sapphire Ore",
+
   "item.firstfabricmod.coin": "Coin",
 
   "item.firstfabricmod.ender_sword": "Ender Sword",

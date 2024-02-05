@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstfabricmod:ruby_block",
+    "firstfabricmod:ruby_ore",
+    "firstfabricmod:sapphire_block",
+    "firstfabricmod:sapphire_ore"
+  ]
+}
