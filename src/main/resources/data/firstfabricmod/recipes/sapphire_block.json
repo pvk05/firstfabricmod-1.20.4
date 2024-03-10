@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    },
+    {
+      "item": "firstfabricmod:sapphire"
+    }
+  ],
+  "result": {
+    "item": "firstfabricmod:sapphire_block",
+    "count": 1
+  }
+}
+

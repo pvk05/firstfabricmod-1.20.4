@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    }
+  ],
+  "result": {
+    "item": "firstfabricmod:ruby_block",
+    "count": 1
+  }
+}
+
