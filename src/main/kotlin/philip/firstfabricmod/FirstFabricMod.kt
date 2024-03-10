@@ -2,6 +2,7 @@ package philip.firstfabricmod
 
 import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
+import philip.firstfabricmod.commands.RegisterCommands
 
 object FirstFabricMod : ModInitializer {
 	const val MOD_ID = "firstfabricmod"
@@ -15,5 +16,7 @@ object FirstFabricMod : ModInitializer {
 
 		ModItems.initialize()
 		ModBlocks.initialize()
+
+		RegisterCommands().registerCommands()
 	}
 }
