@@ -6,6 +6,7 @@ class RegisterCommands {
         val fooCommand = FooCommand()
         fooCommand.register()
 
-
+        val giveModItemsCommand = GiveModItemsCommand()
+        giveModItemsCommand.register()
     }
 }

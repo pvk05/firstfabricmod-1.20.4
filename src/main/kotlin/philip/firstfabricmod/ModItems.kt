@@ -52,4 +52,6 @@ object ModItems {
     private var oreItems = OreItems.allItems()
     private var toolsItems = ToolsItems.allItems()
     private var combatItems = CombatItems.allItems()
+
+    var allItems = oreItems + toolsItems + combatItems
 }
